@@ -30,8 +30,8 @@ W_SPEED = 0.25
 # US baseline for purchasing-power normalization. Numbeo's cost-of-living
 # index is itself anchored to NYC=100; we re-anchor to USA-nation=100 by
 # scaling against the national index in raw_data.json.
-US_COL_BASELINE = 70.4  # USA nation-level cost-of-living index, Numbeo 2026
-US_RENT_BASELINE = 41.0  # USA nation-level rent index, used as cross-check
+US_COL_BASELINE = 68.8   # USA nation-level cost-of-living index, Numbeo May 2026
+US_RENT_BASELINE = 40.7  # USA nation-level rent index, used as cross-check
 
 
 def score_visa(country: dict[str, Any]) -> int:

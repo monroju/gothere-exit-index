@@ -19,7 +19,7 @@ countries:
     region: Western Europe
     primary_visa: D7 (Passive Income)
     secondary_visas: [Digital Nomad D8, Golden Visa, D2 Entrepreneur]
-    numbeo_country_code: PT
+    numbeo_country_name: Portugal
     overrides:
       months_to_permanent_residency: 60      # 5 years to PR
       visa_processing_days: 60
@@ -30,7 +30,7 @@ countries:
     region: Western Europe
     primary_visa: Non-Lucrative Visa (NLV)
     secondary_visas: [Digital Nomad Visa, Golden Visa, Student, Work]
-    numbeo_country_code: ES
+    numbeo_country_name: Spain
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -41,7 +41,7 @@ countries:
     region: Latin America
     primary_visa: Temporary Resident
     secondary_visas: [Permanent Resident, Retirement]
-    numbeo_country_code: MX
+    numbeo_country_name: Mexico
     overrides:
       months_to_permanent_residency: 48      # 4 years TR → PR
       visa_processing_days: 30
@@ -52,7 +52,7 @@ countries:
     region: Latin America
     primary_visa: Pensionado / Rentista
     secondary_visas: [Inversionista, Digital Nomad]
-    numbeo_country_code: CR
+    numbeo_country_name: Costa Rica
     overrides:
       months_to_permanent_residency: 36
       visa_processing_days: 90
@@ -63,7 +63,7 @@ countries:
     region: Latin America
     primary_visa: Friendly Nations Visa
     secondary_visas: [Pensionado, Investor]
-    numbeo_country_code: PA
+    numbeo_country_name: Panama
     overrides:
       months_to_permanent_residency: 24
       visa_processing_days: 90
@@ -74,7 +74,7 @@ countries:
     region: Western Europe
     primary_visa: Elective Residence
     secondary_visas: [Self-Employment, Digital Nomad, Jure Sanguinis]
-    numbeo_country_code: IT
+    numbeo_country_name: Italy
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 120
@@ -85,7 +85,7 @@ countries:
     region: Western Europe
     primary_visa: Stamp 0 (Independent Means)
     secondary_visas: [Critical Skills Employment, Investor]
-    numbeo_country_code: IE
+    numbeo_country_name: Ireland
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -96,7 +96,7 @@ countries:
     region: North America
     primary_visa: Express Entry (skilled)
     secondary_visas: [Provincial Nominee, Family Sponsorship, Start-up Visa]
-    numbeo_country_code: CA
+    numbeo_country_name: Canada
     overrides:
       months_to_permanent_residency: 12     # Express Entry can be fast
       visa_processing_days: 180
@@ -107,7 +107,7 @@ countries:
     region: Western Europe
     primary_visa: DAFT (Dutch-American Friendship Treaty)
     secondary_visas: [Highly Skilled Migrant, Search Year]
-    numbeo_country_code: NL
+    numbeo_country_name: Netherlands
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -118,7 +118,7 @@ countries:
     region: Western Europe
     primary_visa: Freelance / Self-Employed (§21)
     secondary_visas: [Job Seeker, EU Blue Card, Chancenkarte]
-    numbeo_country_code: DE
+    numbeo_country_name: Germany
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -129,7 +129,7 @@ countries:
     region: Western Europe
     primary_visa: Long-Stay Visitor (VLS-TS)
     secondary_visas: [Talent Passport, Profession Libérale]
-    numbeo_country_code: FR
+    numbeo_country_name: France
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 60
@@ -140,7 +140,7 @@ countries:
     region: Western Europe
     primary_visa: Skilled Worker
     secondary_visas: [Ancestry, Innovator Founder, High Potential Individual]
-    numbeo_country_code: GB
+    numbeo_country_name: United Kingdom
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -151,7 +151,7 @@ countries:
     region: Oceania
     primary_visa: Skilled Independent (189)
     secondary_visas: [Employer Nomination 186, Working Holiday 462]
-    numbeo_country_code: AU
+    numbeo_country_name: Australia
     overrides:
       months_to_permanent_residency: 48
       visa_processing_days: 270
@@ -162,7 +162,7 @@ countries:
     region: Oceania
     primary_visa: Skilled Migrant Category
     secondary_visas: [Active Investor Plus, Accredited Employer Work]
-    numbeo_country_code: NZ
+    numbeo_country_name: New Zealand
     overrides:
       months_to_permanent_residency: 24
       visa_processing_days: 180
@@ -173,7 +173,7 @@ countries:
     region: Southern Europe
     primary_visa: Financially Independent Person (FIP)
     secondary_visas: [Golden Visa, Digital Nomad]
-    numbeo_country_code: GR
+    numbeo_country_name: Greece
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 90
@@ -184,7 +184,7 @@ countries:
     region: Southern Europe
     primary_visa: Nomad Residence Permit
     secondary_visas: [Permanent Residence Programme, Citizenship by Naturalisation]
-    numbeo_country_code: MT
+    numbeo_country_name: Malta
     overrides:
       months_to_permanent_residency: 60
       visa_processing_days: 60
@@ -195,7 +195,7 @@ countries:
     region: Latin America
     primary_visa: Tax Resident
     secondary_visas: [Pensioner, Rentista]
-    numbeo_country_code: UY
+    numbeo_country_name: Uruguay
     overrides:
       months_to_permanent_residency: 36
       visa_processing_days: 180
@@ -206,7 +206,7 @@ countries:
     region: Latin America
     primary_visa: Rentista
     secondary_visas: [Pensionado, Investor, Digital Nomad]
-    numbeo_country_code: AR
+    numbeo_country_name: Argentina
     overrides:
       months_to_permanent_residency: 24
       visa_processing_days: 90
@@ -217,7 +217,7 @@ countries:
     region: Southeast Asia
     primary_visa: Long-Term Resident (LTR)
     secondary_visas: [Elite Visa, Retirement (O-A)]
-    numbeo_country_code: TH
+    numbeo_country_name: Thailand
     overrides:
       months_to_permanent_residency: 36      # LTR renewable, PR rare
       visa_processing_days: 60
@@ -228,7 +228,7 @@ countries:
     region: Middle East
     primary_visa: Golden Visa
     secondary_visas: [Green Visa, Remote Worker, Investor]
-    numbeo_country_code: AE
+    numbeo_country_name: United Arab Emirates
     overrides:
       months_to_permanent_residency: 120    # PR not practically available
       visa_processing_days: 30
