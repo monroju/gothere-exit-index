@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Daily-updated ranking of the easiest countries for Americans to move to. Visa accessibility, dollar purchasing power, speed to residency.">
+  <meta property="og:title" content="The American Exit Index — GoThere">
+  <meta property="og:description" content="Daily ranking of where Americans can actually move. Free, open, citable.">
+  <meta property="og:url" content="https://getgothere.app/exit-index">
+  <title>The American Exit Index — GoThere</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <p class="kicker">GoThere · daily-updated</p>
+      <h1>The American Exit Index</h1>
+      <p class="lede">
+        20 destinations ranked daily on three things that actually matter when
+        you're leaving the US: <strong>visa accessibility</strong>,
+        <strong>dollar purchasing power</strong>, and
+        <strong>speed to residency</strong>.
+      </p>
+      <p class="meta">
+        Updated <time id="updated">—</time> ·
+        <a href="#methodology">How we score</a> ·
+        <a href="https://getgothere.app">Plan your move →</a>
+      </p>
+    </div>
+  </header>
+
+  <section class="rankings">
+    <div class="container">
+      <div class="filter-bar">
+        <label>Filter by region
+          <select id="region-filter">
+            <option value="">All regions</option>
+          </select>
+        </label>
+        <label>Sort by
+          <select id="sort">
+            <option value="composite">Composite score</option>
+            <option value="visa_accessibility">Visa accessibility</option>
+            <option value="dollar_purchasing_power">Dollar purchasing power</option>
+            <option value="speed_to_residency">Speed to residency</option>
+          </select>
+        </label>
+      </div>
+      <table id="rankings-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Country</th>
+            <th>Primary visa</th>
+            <th class="num">Visa</th>
+            <th class="num">$</th>
+            <th class="num">Speed</th>
+            <th class="num">Composite</th>
+            <th>Tier</th>
+            <th class="num">Δ today</th>
+          </tr>
+        </thead>
+        <tbody id="rankings-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="methodology">
+    <div class="container">
+      <h2>How we score</h2>
+      <p>
+        Each country gets three 0–100 scores. The composite is a weighted
+        average: visa <strong>40%</strong>, dollar <strong>35%</strong>,
+        speed <strong>25%</strong>. Weights are public and deliberately
+        boring — no secret sauce.
+      </p>
+      <dl>
+        <dt>Visa accessibility</dt>
+        <dd>Does a residency pathway exist for US citizens? How fast does it
+          process? What's the financial floor?</dd>
+        <dt>Dollar purchasing power</dt>
+        <dd>Cost-of-living index relative to the US. Cheaper = higher score.
+          Data via Numbeo, refreshed daily.</dd>
+        <dt>Speed to residency</dt>
+        <dd>Months from arrival to permanent residency — not citizenship.
+          Most people optimize this in year one, not year ten.</dd>
+      </dl>
+      <p class="footnote">
+        Source data and the full Python scoring code live in the
+        <a href="https://github.com/monroju/gothere-exit-index">public repo</a>.
+        We update daily, archive every snapshot, and let anyone reproduce
+        the numbers. If you spot something wrong, open an issue.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>
+        Built by <a href="https://getgothere.app">GoThere</a> — a relocation
+        guide for Americans moving abroad. Free, open, citable.
+      </p>
+      <p class="small">
+        Cost-of-living data via <a href="https://www.numbeo.com" rel="noopener">Numbeo</a>.
+        Not legal or financial advice. Visa rules change; verify with the
+        relevant consulate before planning.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+# American Exit Index — country roster
+#
+# Top 20 destination countries for US emigrants, chosen from State Dept
+# Form DS-2003 (Statement of Residency) totals + r/AmerExit poll data +
+# IRS expat tax filings by country. Roster reviewed quarterly.
+#
+# Each country defines:
+#   slug          — kebab-case, used for filenames and URLs
+#   name          — display name
+#   region        — for grouping in the dashboard
+#   primary_visa  — the most-used residency pathway for US citizens
+#   secondary_visas — alternate pathways
+#   overrides     — manual values that beat scraped data
+#                   (use when scraping is unreliable; review monthly)
+
+countries:
+  - slug: portugal
+    name: Portugal
+    region: Western Europe
+    primary_visa: D7 (Passive Income)
+    secondary_visas: [Digital Nomad D8, Golden Visa, D2 Entrepreneur]
+    numbeo_country_code: PT
+    overrides:
+      months_to_permanent_residency: 60      # 5 years to PR
+      visa_processing_days: 60
+      visa_financial_requirement_usd: 9120   # ~12x SMN, EUR→USD
+
+  - slug: spain
+    name: Spain
+    region: Western Europe
+    primary_visa: Non-Lucrative Visa (NLV)
+    secondary_visas: [Digital Nomad Visa, Golden Visa, Student, Work]
+    numbeo_country_code: ES
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 32400  # ~400% IPREM
+
+  - slug: mexico
+    name: Mexico
+    region: Latin America
+    primary_visa: Temporary Resident
+    secondary_visas: [Permanent Resident, Retirement]
+    numbeo_country_code: MX
+    overrides:
+      months_to_permanent_residency: 48      # 4 years TR → PR
+      visa_processing_days: 30
+      visa_financial_requirement_usd: 36000  # monthly income or savings
+
+  - slug: costa-rica
+    name: Costa Rica
+    region: Latin America
+    primary_visa: Pensionado / Rentista
+    secondary_visas: [Inversionista, Digital Nomad]
+    numbeo_country_code: CR
+    overrides:
+      months_to_permanent_residency: 36
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 30000
+
+  - slug: panama
+    name: Panama
+    region: Latin America
+    primary_visa: Friendly Nations Visa
+    secondary_visas: [Pensionado, Investor]
+    numbeo_country_code: PA
+    overrides:
+      months_to_permanent_residency: 24
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 5000
+
+  - slug: italy
+    name: Italy
+    region: Western Europe
+    primary_visa: Elective Residence
+    secondary_visas: [Self-Employment, Digital Nomad, Jure Sanguinis]
+    numbeo_country_code: IT
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 120
+      visa_financial_requirement_usd: 38000  # ~31k EUR passive income
+
+  - slug: ireland
+    name: Ireland
+    region: Western Europe
+    primary_visa: Stamp 0 (Independent Means)
+    secondary_visas: [Critical Skills Employment, Investor]
+    numbeo_country_code: IE
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 55000
+
+  - slug: canada
+    name: Canada
+    region: North America
+    primary_visa: Express Entry (skilled)
+    secondary_visas: [Provincial Nominee, Family Sponsorship, Start-up Visa]
+    numbeo_country_code: CA
+    overrides:
+      months_to_permanent_residency: 12     # Express Entry can be fast
+      visa_processing_days: 180
+      visa_financial_requirement_usd: 14000
+
+  - slug: netherlands
+    name: Netherlands
+    region: Western Europe
+    primary_visa: DAFT (Dutch-American Friendship Treaty)
+    secondary_visas: [Highly Skilled Migrant, Search Year]
+    numbeo_country_code: NL
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 4900   # DAFT capital threshold
+
+  - slug: germany
+    name: Germany
+    region: Western Europe
+    primary_visa: Freelance / Self-Employed (§21)
+    secondary_visas: [Job Seeker, EU Blue Card, Chancenkarte]
+    numbeo_country_code: DE
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 12000
+
+  - slug: france
+    name: France
+    region: Western Europe
+    primary_visa: Long-Stay Visitor (VLS-TS)
+    secondary_visas: [Talent Passport, Profession Libérale]
+    numbeo_country_code: FR
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 60
+      visa_financial_requirement_usd: 22500  # ~SMIC equivalent
+
+  - slug: united-kingdom
+    name: United Kingdom
+    region: Western Europe
+    primary_visa: Skilled Worker
+    secondary_visas: [Ancestry, Innovator Founder, High Potential Individual]
+    numbeo_country_code: GB
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 50000
+
+  - slug: australia
+    name: Australia
+    region: Oceania
+    primary_visa: Skilled Independent (189)
+    secondary_visas: [Employer Nomination 186, Working Holiday 462]
+    numbeo_country_code: AU
+    overrides:
+      months_to_permanent_residency: 48
+      visa_processing_days: 270
+      visa_financial_requirement_usd: 0      # points-tested, not financial
+
+  - slug: new-zealand
+    name: New Zealand
+    region: Oceania
+    primary_visa: Skilled Migrant Category
+    secondary_visas: [Active Investor Plus, Accredited Employer Work]
+    numbeo_country_code: NZ
+    overrides:
+      months_to_permanent_residency: 24
+      visa_processing_days: 180
+      visa_financial_requirement_usd: 0
+
+  - slug: greece
+    name: Greece
+    region: Southern Europe
+    primary_visa: Financially Independent Person (FIP)
+    secondary_visas: [Golden Visa, Digital Nomad]
+    numbeo_country_code: GR
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 42000
+
+  - slug: malta
+    name: Malta
+    region: Southern Europe
+    primary_visa: Nomad Residence Permit
+    secondary_visas: [Permanent Residence Programme, Citizenship by Naturalisation]
+    numbeo_country_code: MT
+    overrides:
+      months_to_permanent_residency: 60
+      visa_processing_days: 60
+      visa_financial_requirement_usd: 50400  # ~42k EUR/yr
+
+  - slug: uruguay
+    name: Uruguay
+    region: Latin America
+    primary_visa: Tax Resident
+    secondary_visas: [Pensioner, Rentista]
+    numbeo_country_code: UY
+    overrides:
+      months_to_permanent_residency: 36
+      visa_processing_days: 180
+      visa_financial_requirement_usd: 18000
+
+  - slug: argentina
+    name: Argentina
+    region: Latin America
+    primary_visa: Rentista
+    secondary_visas: [Pensionado, Investor, Digital Nomad]
+    numbeo_country_code: AR
+    overrides:
+      months_to_permanent_residency: 24
+      visa_processing_days: 90
+      visa_financial_requirement_usd: 24000
+
+  - slug: thailand
+    name: Thailand
+    region: Southeast Asia
+    primary_visa: Long-Term Resident (LTR)
+    secondary_visas: [Elite Visa, Retirement (O-A)]
+    numbeo_country_code: TH
+    overrides:
+      months_to_permanent_residency: 36      # LTR renewable, PR rare
+      visa_processing_days: 60
+      visa_financial_requirement_usd: 80000  # LTR Wealthy Pensioner tier
+
+  - slug: uae
+    name: United Arab Emirates
+    region: Middle East
+    primary_visa: Golden Visa
+    secondary_visas: [Green Visa, Remote Worker, Investor]
+    numbeo_country_code: AE
+    overrides:
+      months_to_permanent_residency: 120    # PR not practically available
+      visa_processing_days: 30
+      visa_financial_requirement_usd: 545000  # AED 2M property or salary tier

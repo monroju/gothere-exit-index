@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-05-13T14:08:36.661517+00:00",
+  "date": "2026-05-13",
+  "weights": {
+    "visa": 0.4,
+    "dollar": 0.35,
+    "speed": 0.25
+  },
+  "us_baseline_col_index": 70.4,
+  "rankings": [
+    {
+      "slug": "panama",
+      "name": "Panama",
+      "region": "Latin America",
+      "primary_visa": "Friendly Nations Visa",
+      "scores": {
+        "visa_accessibility": 90,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 80,
+        "composite": 74
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 5000,
+        "months_to_permanent_residency": 24,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 1,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "region": "North America",
+      "primary_visa": "Express Entry (skilled)",
+      "scores": {
+        "visa_accessibility": 74,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 100,
+        "composite": 72
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 180,
+        "financial_requirement_usd": 14000,
+        "months_to_permanent_residency": 12,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 2,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "region": "Latin America",
+      "primary_visa": "Rentista",
+      "scores": {
+        "visa_accessibility": 82,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 80,
+        "composite": 70
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 24000,
+        "months_to_permanent_residency": 24,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 3,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "region": "Oceania",
+      "primary_visa": "Skilled Migrant Category",
+      "scores": {
+        "visa_accessibility": 77,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 80,
+        "composite": 68
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 180,
+        "financial_requirement_usd": 0,
+        "months_to_permanent_residency": 24,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 4,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "portugal",
+      "name": "Portugal",
+      "region": "Western Europe",
+      "primary_visa": "D7 (Passive Income)",
+      "scores": {
+        "visa_accessibility": 95,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 66
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 60,
+        "financial_requirement_usd": 9120,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 5,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "netherlands",
+      "name": "Netherlands",
+      "region": "Western Europe",
+      "primary_visa": "DAFT (Dutch-American Friendship Treaty)",
+      "scores": {
+        "visa_accessibility": 90,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 64
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 4900,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 6,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "mexico",
+      "name": "Mexico",
+      "region": "Latin America",
+      "primary_visa": "Temporary Resident",
+      "scores": {
+        "visa_accessibility": 85,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 62
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 30,
+        "financial_requirement_usd": 36000,
+        "months_to_permanent_residency": 48,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 7,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "costa-rica",
+      "name": "Costa Rica",
+      "region": "Latin America",
+      "primary_visa": "Pensionado / Rentista",
+      "scores": {
+        "visa_accessibility": 75,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 60,
+        "composite": 62
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 30000,
+        "months_to_permanent_residency": 36,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 8,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "region": "Western Europe",
+      "primary_visa": "Long-Stay Visitor (VLS-TS)",
+      "scores": {
+        "visa_accessibility": 87,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 62
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 60,
+        "financial_requirement_usd": 22500,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 9,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "uruguay",
+      "name": "Uruguay",
+      "region": "Latin America",
+      "primary_visa": "Tax Resident",
+      "scores": {
+        "visa_accessibility": 74,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 60,
+        "composite": 62
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 180,
+        "financial_requirement_usd": 18000,
+        "months_to_permanent_residency": 36,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 10,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "region": "Western Europe",
+      "primary_visa": "Freelance / Self-Employed (§21)",
+      "scores": {
+        "visa_accessibility": 82,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 60
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 12000,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 11,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "thailand",
+      "name": "Thailand",
+      "region": "Southeast Asia",
+      "primary_visa": "Long-Term Resident (LTR)",
+      "scores": {
+        "visa_accessibility": 68,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 60,
+        "composite": 60
+      },
+      "tier": "Workable",
+      "data": {
+        "processing_days": 60,
+        "financial_requirement_usd": 80000,
+        "months_to_permanent_residency": 36,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 12,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "region": "Western Europe",
+      "primary_visa": "Non-Lucrative Visa (NLV)",
+      "scores": {
+        "visa_accessibility": 75,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 58
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 32400,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 13,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "malta",
+      "name": "Malta",
+      "region": "Southern Europe",
+      "primary_visa": "Nomad Residence Permit",
+      "scores": {
+        "visa_accessibility": 73,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 57
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 60,
+        "financial_requirement_usd": 50400,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 14,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "region": "Oceania",
+      "primary_visa": "Skilled Independent (189)",
+      "scores": {
+        "visa_accessibility": 70,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 56
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 270,
+        "financial_requirement_usd": 0,
+        "months_to_permanent_residency": 48,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 15,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "region": "Western Europe",
+      "primary_visa": "Stamp 0 (Independent Means)",
+      "scores": {
+        "visa_accessibility": 68,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 55
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 55000,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 16,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "united-kingdom",
+      "name": "United Kingdom",
+      "region": "Western Europe",
+      "primary_visa": "Skilled Worker",
+      "scores": {
+        "visa_accessibility": 68,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 55
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 50000,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 17,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "greece",
+      "name": "Greece",
+      "region": "Southern Europe",
+      "primary_visa": "Financially Independent Person (FIP)",
+      "scores": {
+        "visa_accessibility": 68,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 55
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 90,
+        "financial_requirement_usd": 42000,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 18,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "region": "Western Europe",
+      "primary_visa": "Elective Residence",
+      "scores": {
+        "visa_accessibility": 67,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 40,
+        "composite": 54
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 120,
+        "financial_requirement_usd": 38000,
+        "months_to_permanent_residency": 60,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 19,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    },
+    {
+      "slug": "uae",
+      "name": "United Arab Emirates",
+      "region": "Middle East",
+      "primary_visa": "Golden Visa",
+      "scores": {
+        "visa_accessibility": 70,
+        "dollar_purchasing_power": 50,
+        "speed_to_residency": 20,
+        "composite": 50
+      },
+      "tier": "Doable with paperwork",
+      "data": {
+        "processing_days": 30,
+        "financial_requirement_usd": 545000,
+        "months_to_permanent_residency": 120,
+        "cost_of_living_index": null,
+        "cost_of_living_vs_usa": null
+      },
+      "rank": 20,
+      "delta": {
+        "rank_change": 0,
+        "composite_change": 0
+      }
+    }
+  ]
+}
