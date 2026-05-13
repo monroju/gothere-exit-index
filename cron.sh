@@ -10,6 +10,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 LOG="cron.log"
+PY="${PY:-./venv/bin/python}"  # repo-local venv interpreter; override with PY=python3 for system-Python boxes
 
 notify() {
   local status=$1; shift
@@ -32,8 +33,8 @@ run_step() {
   fi
 }
 
-run_step "scrape"  python scrape.py
-run_step "score"   python score.py
+run_step "scrape"  "$PY" scrape.py
+run_step "score"   "$PY" score.py
 
 if ! git diff --quiet -- data/; then
   git add data/
