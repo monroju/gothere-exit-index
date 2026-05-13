@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+    "numbeo_error": null,
+    "fx": {
+      "success": false,
+      "error": {
+        "code": 101,
+        "type": "missing_access_key",
+        "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+      }
+    }
+  },
+  "portugal": {
+    "numbeo": {
+      "cost_of_living_index": 48.8,
+      "rent_index": 25.2,
+      "cost_of_living_plus_rent_index": 38.3,
+      "groceries_index": 46.9,
+      "restaurant_price_index": 45.6,
+      "local_purchasing_power_index": 66.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "spain": {
+    "numbeo": {
+      "cost_of_living_index": 51.6,
+      "rent_index": 23.2,
+      "cost_of_living_plus_rent_index": 39.0,
+      "groceries_index": 50.6,
+      "restaurant_price_index": 55.1,
+      "local_purchasing_power_index": 104.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "mexico": {
+    "numbeo": {
+      "cost_of_living_index": 42.6,
+      "rent_index": 17.8,
+      "cost_of_living_plus_rent_index": 31.5,
+      "groceries_index": 46.6,
+      "restaurant_price_index": 43.6,
+      "local_purchasing_power_index": 48.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "costa-rica": {
+    "numbeo": {
+      "cost_of_living_index": 52.9,
+      "rent_index": 20.3,
+      "cost_of_living_plus_rent_index": 38.3,
+      "groceries_index": 59.2,
+      "restaurant_price_index": 47.5,
+      "local_purchasing_power_index": 49.5,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "panama": {
+    "numbeo": {
+      "cost_of_living_index": 45.5,
+      "rent_index": 23.2,
+      "cost_of_living_plus_rent_index": 35.6,
+      "groceries_index": 51.3,
+      "restaurant_price_index": 42.9,
+      "local_purchasing_power_index": 44.2,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "italy": {
+    "numbeo": {
+      "cost_of_living_index": 61.4,
+      "rent_index": 20.5,
+      "cost_of_living_plus_rent_index": 43.1,
+      "groceries_index": 62.7,
+      "restaurant_price_index": 64.7,
+      "local_purchasing_power_index": 89.2,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "ireland": {
+    "numbeo": {
+      "cost_of_living_index": 70.6,
+      "rent_index": 43.8,
+      "cost_of_living_plus_rent_index": 58.7,
+      "groceries_index": 68.8,
+      "restaurant_price_index": 76.6,
+      "local_purchasing_power_index": 114.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "canada": {
+    "numbeo": {
+      "cost_of_living_index": 63.0,
+      "rent_index": 31.5,
+      "cost_of_living_plus_rent_index": 48.9,
+      "groceries_index": 69.6,
+      "restaurant_price_index": 64.1,
+      "local_purchasing_power_index": 119.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "netherlands": {
+    "numbeo": {
+      "cost_of_living_index": 73.4,
+      "rent_index": 38.7,
+      "cost_of_living_plus_rent_index": 57.9,
+      "groceries_index": 66.9,
+      "restaurant_price_index": 81.6,
+      "local_purchasing_power_index": 131.9,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "germany": {
+    "numbeo": {
+      "cost_of_living_index": 68.7,
+      "rent_index": 24.6,
+      "cost_of_living_plus_rent_index": 49.0,
+      "groceries_index": 64.9,
+      "restaurant_price_index": 66.9,
+      "local_purchasing_power_index": 138.3,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "france": {
+    "numbeo": {
+      "cost_of_living_index": 67.7,
+      "rent_index": 22.3,
+      "cost_of_living_plus_rent_index": 47.5,
+      "groceries_index": 73.2,
+      "restaurant_price_index": 66.2,
+      "local_purchasing_power_index": 118.5,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "united-kingdom": {
+    "numbeo": {
+      "cost_of_living_index": 67.8,
+      "rent_index": 32.1,
+      "cost_of_living_plus_rent_index": 51.9,
+      "groceries_index": 62.8,
+      "restaurant_price_index": 72.9,
+      "local_purchasing_power_index": 122.6,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "australia": {
+    "numbeo": {
+      "cost_of_living_index": 67.9,
+      "rent_index": 33.7,
+      "cost_of_living_plus_rent_index": 52.7,
+      "groceries_index": 76.5,
+      "restaurant_price_index": 65.6,
+      "local_purchasing_power_index": 137.3,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "new-zealand": {
+    "numbeo": {
+      "cost_of_living_index": 60.3,
+      "rent_index": 26.2,
+      "cost_of_living_plus_rent_index": 45.0,
+      "groceries_index": 65.4,
+      "restaurant_price_index": 59.3,
+      "local_purchasing_power_index": 123.8,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "greece": {
+    "numbeo": {
+      "cost_of_living_index": 54.0,
+      "rent_index": 13.7,
+      "cost_of_living_plus_rent_index": 36.0,
+      "groceries_index": 51.0,
+      "restaurant_price_index": 59.2,
+      "local_purchasing_power_index": 64.1,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "malta": {
+    "numbeo": {
+      "cost_of_living_index": 56.8,
+      "rent_index": 28.2,
+      "cost_of_living_plus_rent_index": 44.1,
+      "groceries_index": 55.9,
+      "restaurant_price_index": 64.1,
+      "local_purchasing_power_index": 81.1,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "uruguay": {
+    "numbeo": {
+      "cost_of_living_index": 55.6,
+      "rent_index": 14.7,
+      "cost_of_living_plus_rent_index": 37.3,
+      "groceries_index": 55.1,
+      "restaurant_price_index": 59.6,
+      "local_purchasing_power_index": 55.1,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "argentina": {
+    "numbeo": {
+      "cost_of_living_index": 41.3,
+      "rent_index": 12.1,
+      "cost_of_living_plus_rent_index": 28.3,
+      "groceries_index": 41.1,
+      "restaurant_price_index": 47.9,
+      "local_purchasing_power_index": 47.5,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "thailand": {
+    "numbeo": {
+      "cost_of_living_index": 38.0,
+      "rent_index": 13.9,
+      "cost_of_living_plus_rent_index": 27.2,
+      "groceries_index": 44.4,
+      "restaurant_price_index": 25.0,
+      "local_purchasing_power_index": 45.5,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  },
+  "uae": {
+    "numbeo": {
+      "cost_of_living_index": 55.2,
+      "rent_index": 39.6,
+      "cost_of_living_plus_rent_index": 48.2,
+      "groceries_index": 44.4,
+      "restaurant_price_index": 56.5,
+      "local_purchasing_power_index": 126.4,
+      "fetched_at": "2026-05-13T17:15:28.483610+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
+    }
+  }
+}
