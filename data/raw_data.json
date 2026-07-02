@@ -1,109 +1,274 @@
 {
   "_meta": {
-    "fetched_at": "2026-07-01T04:00:01.027918+00:00",
-    "numbeo_error": "HTTPSConnectionPool(host='www.numbeo.com', port=443): Max retries exceeded with url: /cost-of-living/rankings_by_country.jsp (Caused by NameResolutionError(\"HTTPSConnection(host='www.numbeo.com', port=443): Failed to resolve 'www.numbeo.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+    "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+    "numbeo_error": null,
     "fx": {
-      "error": "fx fetch failed: HTTPSConnectionPool(host='api.exchangerate.host', port=443): Max retries exceeded with url: /latest?base=USD (Caused by NameResolutionError(\"HTTPSConnection(host='api.exchangerate.host', port=443): Failed to resolve 'api.exchangerate.host' ([Errno 8] nodename nor servname provided, or not known)\"))"
+      "success": false,
+      "error": {
+        "code": 101,
+        "type": "missing_access_key",
+        "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+      }
     }
   },
   "portugal": {
     "numbeo": {
-      "error": "country name 'Portugal' not found in rankings table"
+      "cost_of_living_index": 48.7,
+      "rent_index": 23.5,
+      "cost_of_living_plus_rent_index": 37.1,
+      "groceries_index": 47.5,
+      "restaurant_price_index": 45.7,
+      "local_purchasing_power_index": 65.3,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "spain": {
     "numbeo": {
-      "error": "country name 'Spain' not found in rankings table"
+      "cost_of_living_index": 51.4,
+      "rent_index": 22.3,
+      "cost_of_living_plus_rent_index": 38.1,
+      "groceries_index": 51.9,
+      "restaurant_price_index": 53.9,
+      "local_purchasing_power_index": 96.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "mexico": {
     "numbeo": {
-      "error": "country name 'Mexico' not found in rankings table"
+      "cost_of_living_index": 44.4,
+      "rent_index": 17.1,
+      "cost_of_living_plus_rent_index": 31.9,
+      "groceries_index": 49.6,
+      "restaurant_price_index": 44.6,
+      "local_purchasing_power_index": 46.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "costa-rica": {
     "numbeo": {
-      "error": "country name 'Costa Rica' not found in rankings table"
+      "cost_of_living_index": 56.8,
+      "rent_index": 21.1,
+      "cost_of_living_plus_rent_index": 40.5,
+      "groceries_index": 65.4,
+      "restaurant_price_index": 50.6,
+      "local_purchasing_power_index": 49.1,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "panama": {
     "numbeo": {
-      "error": "country name 'Panama' not found in rankings table"
+      "cost_of_living_index": 46.5,
+      "rent_index": 21.7,
+      "cost_of_living_plus_rent_index": 35.2,
+      "groceries_index": 53.8,
+      "restaurant_price_index": 42.9,
+      "local_purchasing_power_index": 42.1,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "italy": {
     "numbeo": {
-      "error": "country name 'Italy' not found in rankings table"
+      "cost_of_living_index": 61.3,
+      "rent_index": 18.9,
+      "cost_of_living_plus_rent_index": 41.9,
+      "groceries_index": 63.8,
+      "restaurant_price_index": 64.2,
+      "local_purchasing_power_index": 85.5,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "ireland": {
     "numbeo": {
-      "error": "country name 'Ireland' not found in rankings table"
+      "cost_of_living_index": 70.8,
+      "rent_index": 41.4,
+      "cost_of_living_plus_rent_index": 57.4,
+      "groceries_index": 70.6,
+      "restaurant_price_index": 76.3,
+      "local_purchasing_power_index": 113.0,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "canada": {
     "numbeo": {
-      "error": "country name 'Canada' not found in rankings table"
+      "cost_of_living_index": 61.3,
+      "rent_index": 29.1,
+      "cost_of_living_plus_rent_index": 46.6,
+      "groceries_index": 69.2,
+      "restaurant_price_index": 61.1,
+      "local_purchasing_power_index": 114.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "netherlands": {
     "numbeo": {
-      "error": "country name 'Netherlands' not found in rankings table"
+      "cost_of_living_index": 73.0,
+      "rent_index": 35.9,
+      "cost_of_living_plus_rent_index": 56.0,
+      "groceries_index": 67.4,
+      "restaurant_price_index": 78.9,
+      "local_purchasing_power_index": 124.3,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "germany": {
     "numbeo": {
-      "error": "country name 'Germany' not found in rankings table"
+      "cost_of_living_index": 68.0,
+      "rent_index": 22.0,
+      "cost_of_living_plus_rent_index": 47.0,
+      "groceries_index": 64.6,
+      "restaurant_price_index": 66.1,
+      "local_purchasing_power_index": 130.0,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "france": {
     "numbeo": {
-      "error": "country name 'France' not found in rankings table"
+      "cost_of_living_index": 66.9,
+      "rent_index": 20.6,
+      "cost_of_living_plus_rent_index": 45.7,
+      "groceries_index": 73.8,
+      "restaurant_price_index": 64.7,
+      "local_purchasing_power_index": 113.3,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "united-kingdom": {
     "numbeo": {
-      "error": "country name 'United Kingdom' not found in rankings table"
+      "cost_of_living_index": 68.2,
+      "rent_index": 30.1,
+      "cost_of_living_plus_rent_index": 50.8,
+      "groceries_index": 64.8,
+      "restaurant_price_index": 72.4,
+      "local_purchasing_power_index": 118.2,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "australia": {
     "numbeo": {
-      "error": "country name 'Australia' not found in rankings table"
+      "cost_of_living_index": 71.4,
+      "rent_index": 33.1,
+      "cost_of_living_plus_rent_index": 53.9,
+      "groceries_index": 82.2,
+      "restaurant_price_index": 66.7,
+      "local_purchasing_power_index": 134.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "new-zealand": {
     "numbeo": {
-      "error": "country name 'New Zealand' not found in rankings table"
+      "cost_of_living_index": 60.2,
+      "rent_index": 24.6,
+      "cost_of_living_plus_rent_index": 43.9,
+      "groceries_index": 67.5,
+      "restaurant_price_index": 56.1,
+      "local_purchasing_power_index": 119.4,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "greece": {
     "numbeo": {
-      "error": "country name 'Greece' not found in rankings table"
+      "cost_of_living_index": 53.3,
+      "rent_index": 12.9,
+      "cost_of_living_plus_rent_index": 34.8,
+      "groceries_index": 51.7,
+      "restaurant_price_index": 57.2,
+      "local_purchasing_power_index": 62.3,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "malta": {
     "numbeo": {
-      "error": "country name 'Malta' not found in rankings table"
+      "cost_of_living_index": 56.9,
+      "rent_index": 27.2,
+      "cost_of_living_plus_rent_index": 43.3,
+      "groceries_index": 57.2,
+      "restaurant_price_index": 63.0,
+      "local_purchasing_power_index": 76.6,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "uruguay": {
     "numbeo": {
-      "error": "country name 'Uruguay' not found in rankings table"
+      "cost_of_living_index": 54.0,
+      "rent_index": 14.4,
+      "cost_of_living_plus_rent_index": 35.9,
+      "groceries_index": 54.2,
+      "restaurant_price_index": 55.4,
+      "local_purchasing_power_index": 56.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "argentina": {
     "numbeo": {
-      "error": "country name 'Argentina' not found in rankings table"
+      "cost_of_living_index": 44.9,
+      "rent_index": 12.8,
+      "cost_of_living_plus_rent_index": 30.2,
+      "groceries_index": 43.8,
+      "restaurant_price_index": 52.1,
+      "local_purchasing_power_index": 44.8,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "thailand": {
     "numbeo": {
-      "error": "country name 'Thailand' not found in rankings table"
+      "cost_of_living_index": 36.8,
+      "rent_index": 12.8,
+      "cost_of_living_plus_rent_index": 25.8,
+      "groceries_index": 43.5,
+      "restaurant_price_index": 23.5,
+      "local_purchasing_power_index": 41.0,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   },
   "uae": {
     "numbeo": {
-      "error": "country name 'United Arab Emirates' not found in rankings table"
+      "cost_of_living_index": 55.6,
+      "rent_index": 36.3,
+      "cost_of_living_plus_rent_index": 46.8,
+      "groceries_index": 45.4,
+      "restaurant_price_index": 57.9,
+      "local_purchasing_power_index": 113.4,
+      "fetched_at": "2026-07-02T04:00:02.032198+00:00",
+      "source": "numbeo.com/cost-of-living/rankings_by_country.jsp",
+      "attribution_required": true
     }
   }
 }
