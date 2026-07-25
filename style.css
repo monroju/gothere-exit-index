@@ -164,3 +164,97 @@ footer {
   th, td { padding: 0.5rem 0.5rem; font-size: 0.85rem; }
   th:nth-child(3), td:nth-child(3) { display: none; } /* hide primary visa col on mobile */
 }
+
+/* ---- share bar ---- */
+.share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+.share-btn {
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  transition: border-color 0.15s;
+}
+.share-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+/* ---- app CTA ---- */
+.app-cta {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--line);
+}
+.app-cta h2 { margin-bottom: 0.5rem; }
+.app-cta p { max-width: 42em; color: #c8d2dc; margin: 0 0 1.25rem; }
+.cta-btns { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.store-btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  background: var(--accent);
+  color: #06241f;
+}
+.store-btn:hover { background: #2ad0bd; text-decoration: none; }
+.store-btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.store-btn.ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---- embed section ---- */
+.embed-section { padding: 2.5rem 0; border-top: 1px solid var(--line); }
+.embed-section p { max-width: 42em; color: #c8d2dc; }
+.embed-box {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.embed-box code {
+  flex: 1;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  overflow-x: auto;
+  white-space: nowrap;
+}
+#copy-embed {
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--accent);
+  color: #06241f;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.1rem;
+}
+#copy-embed:hover { background: #2ad0bd; }
+
+/* embed attribution — hidden on the full page, shown only inside the iframe */
+.embed-title, .embed-credit { display: none; }
+.embed-credit { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
+
+/* ---- compact embed mode (?embed=1) ---- */
+.embed body { background: var(--bg); }
+.embed header,
+.embed .app-cta,
+.embed .embed-section,
+.embed #methodology,
+.embed footer { display: none; }
+.embed .rankings { padding: 1rem 0; }
+.embed .container { padding: 0 0.75rem; }
+.embed .embed-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+}
+.embed .embed-credit { display: block; }

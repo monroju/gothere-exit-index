@@ -9,6 +9,12 @@
   <meta property="og:url" content="https://monroju.github.io/gothere-exit-index/">
   <title>The American Exit Index — GoThere</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Compact embed mode: expat blogs iframe ?embed=1 — strips chrome to just the table.
+    if (new URLSearchParams(location.search).has("embed")) {
+      document.documentElement.className = "embed";
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -26,6 +32,13 @@
         <a href="#methodology">How we score</a> ·
         <a href="https://getgothere.app">Plan your move →</a>
       </p>
+      <div class="share-bar" id="share-bar">
+        <button type="button" class="share-btn" id="share-native">Share this index</button>
+        <a class="share-btn" id="share-x" target="_blank" rel="noopener">Post on X</a>
+        <a class="share-btn" id="share-reddit" target="_blank" rel="noopener">Reddit</a>
+        <a class="share-btn" id="share-wa" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="share-btn" href="#embed">Embed on your site</a>
+      </div>
     </div>
   </header>
 
@@ -46,6 +59,7 @@
           </select>
         </label>
       </div>
+      <p class="embed-title">The American Exit Index — where Americans can actually move</p>
       <table id="rankings-table">
         <thead>
           <tr>
@@ -62,6 +76,42 @@
         </thead>
         <tbody id="rankings-body"></tbody>
       </table>
+      <p class="embed-credit">
+        Live data via <a href="https://getgothere.app/exit-index?utm_source=embed&amp;utm_medium=widget&amp;utm_campaign=exit_index" target="_blank" rel="noopener">The American Exit Index · GoThere</a> — updated daily.
+      </p>
+    </div>
+  </section>
+
+  <section class="app-cta" id="app-cta">
+    <div class="container">
+      <h2>The index tells you where. GoThere tells you how.</h2>
+      <p>
+        Pick any country above, then let GoThere build the actual plan — visa
+        matches for your situation, document checklists, and safety notes tuned
+        to who you are. Free to start.
+      </p>
+      <div class="cta-btns">
+        <a class="store-btn" href="https://apps.apple.com/app/gothere-relocation-guide/id6760248690?utm_source=exit_index&amp;utm_medium=web&amp;utm_campaign=link_magnet">Download for iPhone</a>
+        <a class="store-btn ghost" href="https://play.google.com/store/apps/details?id=com.gothere.app&amp;utm_source=exit_index&amp;utm_medium=web&amp;utm_campaign=link_magnet">Get it on Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="embed-section" id="embed">
+    <div class="container">
+      <h2>Embed the Exit Index</h2>
+      <p>
+        Running an expat blog, newsletter or forum? Drop the live rankings
+        straight into your page — it updates daily, on its own. Copy the snippet:
+      </p>
+      <div class="embed-box">
+        <code id="embed-code"></code>
+        <button type="button" id="copy-embed">Copy</button>
+      </div>
+      <p class="small">
+        Free to use anywhere. A small "via GoThere" credit link stays in the
+        widget footer.
+      </p>
     </div>
   </section>
 

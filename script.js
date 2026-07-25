@@ -48,7 +48,57 @@ function applyFilters(rankings) {
   document.getElementById("rankings-body").innerHTML = filtered.map(renderRow).join("");
 }
 
+function pageUrl() {
+  return location.origin + location.pathname;
+}
+
+function wireSharing() {
+  const url = pageUrl();
+  const text = "The American Exit Index: 20 countries ranked daily on how easily Americans can actually move there.";
+  const enc = encodeURIComponent;
+
+  const x = document.getElementById("share-x");
+  if (x) x.href = `https://twitter.com/intent/tweet?text=${enc(text)}&url=${enc(url)}`;
+  const reddit = document.getElementById("share-reddit");
+  if (reddit) reddit.href = `https://www.reddit.com/submit?url=${enc(url)}&title=${enc(text)}`;
+  const wa = document.getElementById("share-wa");
+  if (wa) wa.href = `https://wa.me/?text=${enc(text + " " + url)}`;
+
+  const native = document.getElementById("share-native");
+  if (native) {
+    native.addEventListener("click", async () => {
+      if (navigator.share) {
+        try { await navigator.share({ title: "The American Exit Index", text, url }); return; }
+        catch (e) { /* user cancelled — fall through to copy */ }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        native.textContent = "Link copied ✓";
+        setTimeout(() => { native.textContent = "Share this index"; }, 2000);
+      } catch (e) { /* clipboard blocked — no-op */ }
+    });
+  }
+
+  // Embed snippet
+  const embedSrc = pageUrl() + "?embed=1";
+  const snippet = `<iframe src="${embedSrc}" width="100%" height="640" style="border:1px solid #1f2a37;border-radius:10px" title="The American Exit Index" loading="lazy"></iframe>`;
+  const codeEl = document.getElementById("embed-code");
+  if (codeEl) codeEl.textContent = snippet;
+  const copyBtn = document.getElementById("copy-embed");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(snippet);
+        copyBtn.textContent = "Copied ✓";
+        setTimeout(() => { copyBtn.textContent = "Copy"; }, 2000);
+      } catch (e) { /* clipboard blocked — no-op */ }
+    });
+  }
+}
+
 async function init() {
+  wireSharing();
+
   let data;
   try {
     const resp = await fetch(DATA_URL);
